@@ -39,7 +39,7 @@ const signIn = () => {
     firebase.auth().signInWithEmailAndPassword(email, password)
         .then((result) => {
             // Signed in 
-            document.write("You are Signed In")
+            document.write("You're being redirected.")
             console.log(result)
         })
         .catch((error) => {
